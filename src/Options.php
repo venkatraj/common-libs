@@ -2,8 +2,14 @@
 if (!defined('ABSPATH')) die('No direct access allowed');
 
 class Options {
-	public function __construct() {
-		
+
+	private string $key;
+
+	private array $defaults;
+
+	public function __construct(string $key) {
+		$this->key = $key;
+		$this->defaults = [];
 	}
 
 	public function get() {

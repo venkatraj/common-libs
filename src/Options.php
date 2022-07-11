@@ -19,7 +19,7 @@ class Options {
 	}
 
 	public function setDefaultOptions() {
-		
+
 	}
 
 	public function update() {
@@ -31,14 +31,6 @@ class Options {
 	}
 
 	public function reset() {
-
-	}
-
-	public function import() {
-
-	}
-
-	public function export() {
 
 	}
 }
